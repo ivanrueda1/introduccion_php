@@ -20,7 +20,7 @@
     //modulo:%
     //incremento: ++
     //decremento: --
-    
+    echo "<h1>Operadores aritmeticos</h1>";
     $x = 9;
     echo  ("x = ".$x."<br>");
     $y = 3;
@@ -47,8 +47,8 @@
     //Menor que: <
     //Mayor o igual que: >=
     //Menor o igual que: <=
-   
     
+    echo "<h1>Operadores de comparación</h1>";
     $x = 4;
     $y = 5;
     echo ($x == $y);
@@ -65,6 +65,7 @@
    // XOR 
    // |: es True si $a es false
 
+    echo "<h1>Operadores logicos</h1>";
     $x = 4;
     $y = 5;
 
@@ -84,7 +85,7 @@
     // Para la union de cadenas se emplea el punto (.)
    
     
-    
+    echo "<h1>Operadores de union de cadenas</h1>";
     $t = "ejemplo";
     $w = 'union';
     $x = "de";
